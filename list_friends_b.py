@@ -1,6 +1,6 @@
 friends=[]
 while len(friends)<5:
-    name=input("Enter name ")
+    name=input("Введите имя: ")
     # проверить если переменная name не в списке
     if name not in friends:
         friends.append(name)
@@ -10,4 +10,7 @@ while len(friends)<5:
 # отсортировать по алфавиту 
 sorted_friends = sorted(friends)
 # вывести при помощи цыкла for in range 
-print(sorted_friends)
+# print(sorted_friends)
+
+for name in range(1):
+    print(sorted_friends)
