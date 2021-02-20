@@ -12,5 +12,5 @@ sorted_friends = sorted(friends)
 # вывести при помощи цыкла for in range 
 # print(sorted_friends)
 
-for i in range(5):
-    print(sorted_friends[i])
+for i, friends in enumerate(friends):
+    print(i+1, friends)
